@@ -12,10 +12,6 @@ const App = () => {
       <div className='h-229 bg-zinc-400 m-0 font-bold text-6xl p-0 box-border flex justify-center items-center'>
         Advice.io
       </div>
-
-      <h1>i am in</h1>
-      <h1>her there i am here to N</h1>
-      <h2>mcstan</h2>
     </div>
   )
 }
