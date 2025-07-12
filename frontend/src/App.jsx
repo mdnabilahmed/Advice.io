@@ -15,5 +15,6 @@ const App = () => {
     </div>
   )
 }
-
+//bemari bhi battana hai na aapko
+// gimme 2 mins installed nhi hai okay
 export default App
