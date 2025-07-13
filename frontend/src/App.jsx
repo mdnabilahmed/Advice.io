@@ -1,20 +1,18 @@
+// src/App.jsx
 import React from "react";
-import "./App.css";
-import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 const App = () => {
   return (
-    <div>
-      <div className=" bg-gradient-to-br from-[#f0f4ff] via-[#fce4ec] to-[#e0f7fa]">
-        <Navbar />
-        <div className="h-screen flex flex-col justify-center items-center text-xl font-bold text-center">
-          Real people. Real-time advice. Or just let AI handle it <br /> — your
-          call.
-        </div>
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
   );
 };
-//bemari bhi battana hai na aapko
-// gimme 2 mins installed nhi hai, okay
+
 export default App;
