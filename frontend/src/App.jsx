@@ -1,21 +1,20 @@
-import React from 'react'
-import './App.css'
-import Navbar from "./components/Navbar"
-
-
-
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <div className='h-229 bg-zinc-400 m-0 font-bold text-6xl p-0 box-border flex justify-center items-center'>
-        Advice.io
+      <div className=" bg-gradient-to-br from-[#f0f4ff] via-[#fce4ec] to-[#e0f7fa]">
+        <Navbar />
+        <div className="h-screen flex flex-col justify-center items-center text-xl font-bold text-center">
+          Real people. Real-time advice. Or just let AI handle it <br /> — your
+          call.
+        </div>
       </div>
-      <div>test github</div>
     </div>
-  )
-}
+  );
+};
 //bemari bhi battana hai na aapko
-// gimme 2 mins installed nhi hai okay
-export default App
+// gimme 2 mins installed nhi hai, okay
+export default App;
